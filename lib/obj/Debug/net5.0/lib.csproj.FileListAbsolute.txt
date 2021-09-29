@@ -1,0 +1,15 @@
+C:\Bootcamp\C#\Day 8\AirplaneReservation\lib\bin\Debug\net5.0\lib.deps.json
+C:\Bootcamp\C#\Day 8\AirplaneReservation\lib\bin\Debug\net5.0\lib.runtimeconfig.json
+C:\Bootcamp\C#\Day 8\AirplaneReservation\lib\bin\Debug\net5.0\lib.runtimeconfig.dev.json
+C:\Bootcamp\C#\Day 8\AirplaneReservation\lib\bin\Debug\net5.0\lib.dll
+C:\Bootcamp\C#\Day 8\AirplaneReservation\lib\bin\Debug\net5.0\ref\lib.dll
+C:\Bootcamp\C#\Day 8\AirplaneReservation\lib\bin\Debug\net5.0\lib.pdb
+C:\Bootcamp\C#\Day 8\AirplaneReservation\lib\obj\Debug\net5.0\lib.csprojAssemblyReference.cache
+C:\Bootcamp\C#\Day 8\AirplaneReservation\lib\obj\Debug\net5.0\lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bootcamp\C#\Day 8\AirplaneReservation\lib\obj\Debug\net5.0\lib.AssemblyInfoInputs.cache
+C:\Bootcamp\C#\Day 8\AirplaneReservation\lib\obj\Debug\net5.0\lib.AssemblyInfo.cs
+C:\Bootcamp\C#\Day 8\AirplaneReservation\lib\obj\Debug\net5.0\lib.csproj.CoreCompileInputs.cache
+C:\Bootcamp\C#\Day 8\AirplaneReservation\lib\obj\Debug\net5.0\lib.dll
+C:\Bootcamp\C#\Day 8\AirplaneReservation\lib\obj\Debug\net5.0\ref\lib.dll
+C:\Bootcamp\C#\Day 8\AirplaneReservation\lib\obj\Debug\net5.0\lib.pdb
+C:\Bootcamp\C#\Day 8\AirplaneReservation\lib\obj\Debug\net5.0\lib.genruntimeconfig.cache

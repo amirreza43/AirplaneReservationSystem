@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace MyLib
+namespace lib
 {
 
     public class Passenger{

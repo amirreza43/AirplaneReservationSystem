@@ -1,5 +1,5 @@
 ﻿using System;
-using MyLib;
+using lib;
 
 namespace MainApp
 {
