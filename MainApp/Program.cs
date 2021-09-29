@@ -1,4 +1,5 @@
 ﻿using System;
+using MyLib;
 
 namespace MainApp
 {
@@ -6,7 +7,7 @@ namespace MainApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            using var db = new Database();
         }
     }
 }
