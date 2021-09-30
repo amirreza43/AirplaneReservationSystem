@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 using lib;
 
 namespace MainApp
@@ -36,14 +37,18 @@ namespace MainApp
                         while(true){
                             Console.WriteLine("Section Type: ( write quit when the sections are done)");
                             var secName = Console.ReadLine();
+                            if(secName == "quit"){
+                                break;
+                            }
                             Console.WriteLine("Number of rows for this section:");
                             var secRow = Int32.Parse(Console.ReadLine());
                             Console.WriteLine("Price for the seats in this section:");
                             var secPrice = Int32.Parse(Console.ReadLine());
-                            if(secName == "quit"){
-                                break;
-                            }
                             Section section= new Section(){ Flight = f, Rows = secRow, SectionId = secName };
+
+                            db.Add(section);
+                            db.SaveChanges();
+
                                 var seatCol = "";
                                 for(int i= 0; i< secRow; i++){
                                     for(int j=0; j<6; j++){
@@ -79,14 +84,15 @@ namespace MainApp
                                         }
                                         
                                         Seat seat = new Seat(){ price= secPrice, Row = (i+1), Column = seatCol, Section = section };
-                                        db.Add(seat);
+                                        Console.WriteLine(seat.Column, seat.Row, seat.price);
+                                        db.Seats.Add(seat);
+                                        db.SaveChanges();
 
                                     }
 
                                 }
 
-                            db.Add(section);
-                            db.SaveChanges();
+                            
                         }
                         
 
