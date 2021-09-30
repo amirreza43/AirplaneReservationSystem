@@ -32,6 +32,35 @@
 -- insert into Seats (price, passengerName, SectionId, Row, Column) VALUES (200 ,"Jane", "Second Class 1", 3, "F");
 -- insert into Seats (price, passengerName, SectionId, Row, Column) VALUES (100 ,"Ariana", "Third Class 1", 4, "B");
 
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (300 , "First Class 1", 1, "C");
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (300 , "First Class 1", 1, "D");
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (300 , "First Class 1", 1, "E");
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (300 , "First Class 1", 1, "F");
+
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (100 , "Second Class 1", 2, "A");
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (100 , "Second Class 1", 2, "B");
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (100 , "Second Class 1", 2, "C");
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (100 , "Second Class 1", 2, "D");
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (100 , "Second Class 1", 2, "E");
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (100 , "Second Class 1", 3, "A");
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (100 , "Second Class 1", 3, "B");
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (100 , "Second Class 1", 3, "C");
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (100 , "Second Class 1", 3, "D");
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (100 , "Second Class 1", 3, "E");
+
+
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (100 , "Third Class 1", 4, "A");
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (100 , "Third Class 1", 4, "C");
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (100 , "Third Class 1", 4, "D");
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (100 , "Third Class 1", 4, "E");
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (100 , "Third Class 1", 4, "F");
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (100 , "Third Class 1", 5, "A");
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (100 , "Third Class 1", 5, "B");
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (100 , "Third Class 1", 5, "C");
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (100 , "Third Class 1", 5, "D");
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (100 , "Third Class 1", 5, "E");
+-- insert into Seats (price,  SectionId, Row, Column) VALUES (100 , "Third Class 1", 5, "F");
+
 -- insert into Seats (price, passengerName, SectionId, Row, Column) VALUES (300 ,"David", "First Class 2", 1, "B");
 -- insert into Seats (price, passengerName, SectionId, Row, Column) VALUES (200 ,"Kim", "Second Class 2", 2, "C");
 -- insert into Seats (price, passengerName, SectionId, Row, Column) VALUES (100 ,"Rose", "Third Class 2", 4, "A");
@@ -67,4 +96,10 @@
 -- insert into Seats (price,  SectionId, Row, Column) VALUES (100 , "Third Class 2", 5, "C");
 -- insert into Seats (price,  SectionId, Row, Column) VALUES (100 , "Third Class 2", 5, "F");
 
--- Delete from Flights where FlightNumber=3;
+-- Delete from Sections where SectionId = "Second Class 3";
+-- Delete from Sections where SectionId = "First Class 3";
+-- Delete from Sections where SectionId = "Third Class 3";
+-- Delete from Flights where FlightNumber = 15;
+
+--  update Flights SET Revenue=1100 where FlightNumber=1;
+--  update Flights SET Revenue=800 where FlightNumber=2;
